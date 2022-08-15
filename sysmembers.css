@@ -1,0 +1,29 @@
+body {
+  background-color: gray
+}
+
+p {
+  color: red; font-size:30px
+}
+
+h1 {
+  color: cyan
+}
+
+h2 {
+  color: #aba774
+}
+
+h3 {
+  color: #f2a41d
+}
+
+button { 
+  /* I didn't even know you could do this lmao That's actually super cool */
+  background-color: rgb(129, 153, 127);
+  border-radius: 12px;
+}
+
+.button{
+  color:Violet
+}
