@@ -1,29 +1,40 @@
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  src: url("firaCode.ttf") format("truetype");
+}
+
+a {
+  color: #74c7ec;
+}
+
+a:visited {
+  color: #b4befe;
+}
+
 body {
-  background-color: gray
+  font-family: 'Fira Code', monospace;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
 }
 
 p {
-  color: red; font-size:30px
-}
-
-h1 {
-  color: cyan
-}
-
-h2 {
-  color: #aba774
-}
-
-h3 {
-  color: #f2a41d
+  color: #cdd6f4;
+  font-size:30px
 }
 
 button { 
   /* I didn't even know you could do this lmao That's actually super cool */
   background-color: rgb(129, 153, 127);
   border-radius: 12px;
+  color: Violet;
 }
 
-.button{
-  color:Violet
+h1 .subtext {
+  font-size: 25px;
+  color: #a6adc8;
+}
+
+.noBottomMargin {
+  margin-bottom: 0;
 }
